@@ -1,0 +1,18 @@
+{
+  "name": "flastname-ntp",
+  "version": "0.1.0",
+  "author": "flastname",
+  "summary": "NTP puppet module",
+  "license": "Apache-2.0",
+  "source": "https://github.com/john35924/puppet-ntp.git",
+  "project_page": "https://github.com/john35924/puppet-ntp",
+  "issues_url": "https://github.com/john35924/puppet-ntp/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">= 1.0.0"
+    }
+  ],
+  "data_provider": null
+}
+
