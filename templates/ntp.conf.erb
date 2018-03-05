@@ -4,7 +4,7 @@ restrict 127.0.0.1
 restrict ::1
 
 <% @servers.each do | server | -%>
-<% server %>
+<%= server %>
 <% end -%>
 
 includefile /etc/ntp/crypto/pw

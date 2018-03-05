@@ -42,7 +42,7 @@
 #
 # Copyright 2018 Your name here, unless otherwise noted.
 #
-class ntp (
+class ntp(
   String $package_name		= $ntp::params::package_name,
   String $package_ensure	= $ntp::params::package_ensure,
   String $config_name		= $ntp::params::config_name,
@@ -56,6 +56,6 @@ class ntp (
 ) inherits ::ntp::params {
   class { '::ntp::install': }
 	-> class { '::ntp::config': }
-	~> class { '::ntp::service': }
- }
+	-> class { '::ntp::service': }
+}
   
